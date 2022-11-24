@@ -1,0 +1,74 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mehmet Akif Ersoy Üniversitesi</title>
+<link rel="stylesheet" href="stil.css" />
+</head>
+
+<body bgcolor="#C5CAE9">
+<div class="sablon">
+<div class="logo"></div>
+<div class="ust">MEHMET AKİF ERSOY ÜNİVERSİTESİ</div>
+<div class="menu">
+<ul>
+<li><a href="anasayfa.html">Anasayfa</a></li>
+<li><a href="hakkimizda.html">Hakkımızda</a></li>
+<li><a href="gubyo.html">G.U.B.Y.O</a></li>
+<li><a href="iletisim.html">İletişim</a></li>
+</ul>
+</div>
+<div class="sosyal">
+<a href="https://www.whatsapp.com/catalog/905528131515/?app_absent=0" target="_blank"><img src="resimler/whatsapp-square-social-media-512.png" width="46" title="Whatsapp"></a>
+<a href="https://www.facebook.com/makuedutr" target="_blank"><img src="resimler/indir.png" width="46" title="Facebook"></a>
+<a href="https://twitter.com/makuedutr" target="_blank"><img src="resimler/twitter-icon-square-logo-108D17D373-seeklogo.com.png" width="46" title="Twitter"></a>
+<a href="https://www.instagram.com/makuedutr/" target="_blank"><img src="resimler/social-instagram-new-square1-512.png" width="46" title="İnstagram"></a>
+</div>
+<div class="form">
+<form name="kayitgonder" action="kayit.php" method="post">
+<table>
+<tr>
+<td><label for="adsoyad">Ad Soyad:</label></td>
+<td><input type="text" name="adsoyad" id="adsoyad" /></td>
+</tr>
+<tr>
+<td><label for="eposta">E-Posta:</label></td>
+<td><input type="text" name="eposta" id="eposta" /></td>
+</tr>
+<tr>
+<td><label for="telefon">Telefon:</label></td>
+<td><input type="text" name="telefon" id="telefon" /></td>
+</tr>
+<tr>
+<td><label for="konu">Konu:</label></td>
+<td><input type="text" name="konu" id="konu" /></td>
+</tr>
+<tr>
+<td><label>Cinsiyet:</label></td>
+<td>
+<input type="radio" name="cinsiyet" value="Erkek"> Erkek 
+<input type="radio" name="cinsiyet" value="Kadın"> Kadın
+<input type="radio" name="cinsiyet" value="Diğer"> Diğer
+</td>
+</tr>
+<tr>
+<td><label>Bildiğiniz Diller:</label></td>
+<td>
+<input type="checkbox" name="dil" value="İngilizce">İngilizce
+<input type="checkbox" name="dil" value="Türkçe">Türkçe
+<input type="checkbox" name="dil" value="İtalyanca">İtalyanca
+</td>
+</tr>
+<tr>
+<td><label for="mesaj">Mesajınız:</label></td>
+<td><textarea  name="mesaj" id="mesaj" style="height:90px; width:200px" ></textarea></td>
+</tr>
+<tr>
+<td colspan="2"><input type="submit" value="Gönder" name="gonder" /></td>
+</tr>
+</table>
+</form>    
+</div>
+</div>
+</body>
+</html>
